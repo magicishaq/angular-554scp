@@ -17,6 +17,9 @@ export class ProductListComponent {
   logIt() {
     window.alert('I have loged this!')
   }
+  onNotify() {
+    window.alert('You will be notified when this product goes on sale!')
+  }
 }
 
 
