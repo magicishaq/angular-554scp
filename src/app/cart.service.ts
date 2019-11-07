@@ -12,11 +12,11 @@ export class CartService {
   addToCart(product){
     this.items.push(product); 
   }
-  getItems(product){
+  getItems(){
     return this.items; 
   }
 
-  clearCart(product){
+  clearCart(){
     this.items = []; 
     return this.items; 
   }
